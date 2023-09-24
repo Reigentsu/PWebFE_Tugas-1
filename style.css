@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+}
+
+.infoTop {
+    width: 100%;
+    height: 20px;
+    font-size: 12px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    color: aliceblue;
+    background-color: #333333;
+    padding: 5px 0;
+}
+
+
+.infoTop .topUl1 {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.infoTop .topUl2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+.infoTop ul li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-family: "Poppins";
+}
+
+.infoTop ul li {
+    list-style-type: none;
+    height: 20px;
+    align-items: center;
+}
+
+.headerNabvar {
+    width: 100%;
+    font-family: "Poppins";
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #e8e8e8;
+    color: #333333;
+    align-items: center;
+    padding: 10px 0;
+    display: flex;
+    box-shadow: 0px 1px 4px rgb(47, 46, 46);
+}
+
+.headerNabvar h1 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.headerNabvar h1 img {
+    margin-right: 15px;
+}
+
+#batasNav {
+    margin: 0 20px;
+    font-size: 25px;
+}
+
+.navHeader {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 300px);
+    height: 32px;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+
+.headUl1 {
+    align-items: center;
+    display: flex;
+}
+
+.headUl2 {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.navHeader ul {
+    display: flex;
+}
+
+.navHeader ul li a {
+    text-decoration: none;
+    color: #606060;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navHeader .headUl1 li a {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+.navHeader .headUl1 li a:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.navHeader ul li {
+    list-style-type: none;
+}
+
+#searchNav {
+    display: flex;
+    max-width: 300px;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 2px solid #686868;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-input::placeholder {
+    font-family: "Poppins";
+}
+
+.search-button {
+    padding: 5px 10px;
+    background-color: #6c6c6c;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #333333;
+}
+
+#troller {
+    display: flex;
+    align-items: center;
+}
+
+#troller img {
+    height: 25px;
+    width: 25px;
+}
+
+#logIn {
+    margin-right: initial;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#logIn:hover {
+    color: rgb(255, 115, 0);
+}
+
+#signUp {
+    margin-left: 10px;
+    padding: 5px 10px;
+    color: #333333;
+    border: 2px solid #333333;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#signUp:hover {
+    background-color: #333333;
+    color: #F2F2F2;
+}
+
+.trendContent {
+    width: 475px;
+}
+
+.containerHome {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.contentHome {
+    padding: 50px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topPicture {
+    position: relative;
+    display: inline-block;
+}
+
+.topPicture::before {
+    font-family: "Poppins";
+    content: "Technology";
+    font-weight: 600;
+    position: absolute;
+    border-radius: 2px;
+    bottom: 100px;
+    left: 0px;
+    padding: 1px 10px;
+    font-size: 18px;
+    width: fit-content;
+    background-color: rgb(123, 222, 255);
+    color: black;
+}
+
+.topPicture img {
+    width: 475px;
+    height: 475px;
+}
+
+.topPicture figcaption a {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333;
+}
+
+.datatopPic {
+    display: flex;
+}
+
+.datatopPic li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 10px;
+}
+
+.datatopPic li img {
+    margin-right: 3px;
+}
+
+.recentTop {
+    display: flex;
+    justify-content: space-between;
+    color: #606060;
+}
+
+.recentTop a {
+    text-decoration: none;
+    color: initial;
+    color: #606060;
+}
+
+.recentTop li {
+    text-decoration: none;
+    color: black;
+}
+
+.newsContent {
+    width: calc(100% - 500px);
+}
+
+.newsContent ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.recentNewsSmall a {
+    color: black;
+}
+
+#allrecentnews {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+#allrecentnews:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.recentNewsSmall li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.recentNewsSmall li a,
+.recentNewsSmall li span {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.recentNewsSmall li span {
+    font-weight: initial;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.newsContent .recentNewsSmall li .konteks {
+    font-weight: initial;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    width: fit-content;
+    padding: 1px 10px;
+    border-radius: 2px;
+}
+
+.recentNewsSmall li .sports {
+    background-color: rgb(255, 130, 85);
+}
+
+.recentNewsSmall li .business {
+    background-color: rgb(175, 255, 46);
+}
+
+.recentNewsSmall li .technology {
+    background-color: rgb(123, 222, 255);
+}
+
+.recentNewsSmall li .lifestyle {
+    background-color: rgb(206, 102, 255);
+}
+
+.recentNewsSmall li img {
+    width: 190px;
+    height: 125px;
+    aspect-ratio: 190/125;
+}
+
+#mataRecentTop {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.recentNewsSmall li div {
+    display: flex;
+    flex-direction: column;
+}
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.page2Content {
+    padding: 50px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page2Content div ul {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+
+.page2Content div ul li a,
+.page2Content div ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    font-weight: 600;
+    color: #606060;
+}
+
+.page2Content div ul li {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#alltopstories {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+
+#alltopstories:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+.articlePage2 {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.ultopStories1 {
+    position: relative;
+    display: inline-block;
+}
+
+.articlePage2 ul li {
+    list-style-type: none;
+}
+
+
+.divtopStories {
+    position: relative;
+    display: inline-block;
+}
+
+.dataFooterLabel {
+    justify-content: initial !important;
+}
+
+.dataFooterLabel li img {
+    margin-right: 5px;
+}
+
+.dataFooterLabel li {
+    margin-right: 10px;
+    align-items: center;
+    color: white !important;
+    font-weight: initial !important;
+    font-size: 12px !important;
+}
+
+.labelImg span {
+    background-color: aquamarine;
+    padding: 1px 5px;
+    border-radius: 2px;
+    color: black;
+}
+
+.labelImg a {
+    display: block;
+    color: white !important;
+    text-decoration: none;
+}
+
+.labelImg {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+    padding: 1px 10px;
+    border-radius: 2px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 100%);
+    content: "";
+    z-index: 1;
+}
+
+#topstories1 {
+    width: 900px;
+    height: 515px;
+}
+
+.kecilStories {
+    width: calc(100% - 940px);
+    height: 521px;
+}
+
+.ulkecilstories {
+    height: 521px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.ulkecilstories img {
+    width: 240px;
+    height: 150px;
+}
+
+.ulkecilstories li figure {
+    position: relative;
+}
+
+.ulkecilstories li figure span {
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    width: 230px;
+    height: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-size: 16px !important;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whatsapp-button #waFixed {
+    width: 35px;
+    height: 35px;
+}
+
+.whatsapp-button #upFixed {
+    width: 40px;
+    height: 40px;
+}
+
+.footer {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+}
